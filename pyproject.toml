@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "bertviz>=1.4.1",
     "datasets>=5.0.1",
     "evaluate>=0.4.6",
+    "torch>=2.14.0",
     "transformers[sentencepiece]>=5.16.1",
 ]
